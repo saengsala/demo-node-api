@@ -1,0 +1,12 @@
+version: '2'
+
+services:
+  database:
+    image: bitnami/mysql:8.0
+    ports:
+      - 3306:3306
+    environment:
+      - ALLOW_EMPTY_PASSWORD=yes
+      - MYSQL_USER=demo_user
+      - MYSQL_PASSWORD=demo_pass
+      - MYSQL_DATABASE=demo_node_api

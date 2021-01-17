@@ -1,0 +1,20 @@
+{
+  "name": "demo-node-api",
+  "version": "1.0.0",
+  "description": "Demo node api",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "55050296@kmitl.ac.th",
+  "license": "ISC",
+  "devDependencies": {
+    "dotenv": "^8.1.0",
+    "nodemon": "^1.19.1"
+  },
+  "dependencies": {
+    "express": "^4.17.1",
+    "import-export": "^1.0.1"
+  }
+}

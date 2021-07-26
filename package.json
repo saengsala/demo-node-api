@@ -11,10 +11,13 @@
   "license": "ISC",
   "devDependencies": {
     "dotenv": "^8.1.0",
-    "nodemon": "^1.19.1"
+    "nodemon": "^1.19.1",
+    "sequelize-cli": "^6.2.0"
   },
   "dependencies": {
     "express": "^4.17.1",
-    "import-export": "^1.0.1"
+    "import-export": "^1.0.1",
+    "mysql2": "^2.2.5",
+    "sequelize": "^6.6.5"
   }
 }
